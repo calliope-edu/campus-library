@@ -571,11 +571,11 @@
 			"entries": [
 				{
 					"id": "appcamps-basiskurs-makecode-01-grundlagen",
-					"title": "Calliope mini – Basiskurs MakeCode – 01 Grundlagen",
+					"title": "Basiskurs MakeCode: Grundlagen",
 					"editor": null,
 					"kind": "embed",
 					"url": "https://app.fobizz.com/teaching_board/public_screens/7ecb80f4-7617-4d1f-aaae-c72f5aa0e164/pages/6f2b0d93-36ea-43b8-a769-24a4ce614ec0?token=da12166ae8290af0148c5d394e769931",
-					"label": "Basiskurs 01"
+					"label": "01"
 				}
 			]
 		}
