@@ -9,7 +9,7 @@
 			"entries": [
 				{
 					"id": "ah1-18-4-led-matrix",
-					"title": "LED-Matrix",
+					"title": "Animation",
 					"editor": "makecode",
 					"kind": "tutorial",
 					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/18-4_led-matrix",
@@ -27,7 +27,7 @@
 				},
 				{
 					"id": "ah1-21-4-rgb-led",
-					"title": "RGB-LED",
+					"title": "Regenbogen",
 					"editor": "makecode",
 					"kind": "tutorial",
 					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/21-4_rgb-led",
@@ -45,7 +45,7 @@
 				},
 				{
 					"id": "ah1-24-3-knoepfe",
-					"title": "Knöpfe",
+					"title": "Smiley",
 					"editor": "makecode",
 					"kind": "tutorial",
 					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/24-3_knoepfe",
@@ -63,7 +63,7 @@
 				},
 				{
 					"id": "ah1-33-4-licht",
-					"title": "Licht",
+					"title": "Licht messen",
 					"editor": "makecode",
 					"kind": "tutorial",
 					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/33-4_licht",
