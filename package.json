@@ -1,0 +1,14 @@
+{
+	"name": "campus-library",
+	"private": true,
+	"description": "The curated library of Calliope Campus.",
+	"type": "module",
+	"scripts": {
+		"validate": "node scripts/validate.mjs",
+		"sync": "node scripts/sync-makecode.mjs"
+	},
+	"devDependencies": {
+		"ajv": "^8.17.1",
+		"ajv-formats": "^3.0.1"
+	}
+}

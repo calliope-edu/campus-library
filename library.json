@@ -1,0 +1,583 @@
+{
+	"$schema": "./library.schema.json",
+	"version": 1,
+	"sections": [
+		{
+			"id": "arbeitsheft-1",
+			"title": "Arbeitsheft 1",
+			"order": 10,
+			"entries": [
+				{
+					"id": "ah1-18-4-led-matrix",
+					"title": "LED-Matrix",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/18-4_led-matrix",
+					"imageUrl": "https://cdn.makecode.com/blob/94e77eee8715ae4535c2b6fb4998ad599b59aaef/static/calliope/arbeitsheft/DE/18-4_led-matrix.png",
+					"label": "S. 18 Aufg. 4"
+				},
+				{
+					"id": "ah1-20-2-raketenstart",
+					"title": "Raketenstart",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/20-2_raketenstart",
+					"imageUrl": "https://cdn.makecode.com/blob/0293bdb4d2af02653af27dfcbe7746f52a477817/static/calliope/arbeitsheft/DE/20-2_raketenstart.png",
+					"label": "S. 20 Aufg. 2"
+				},
+				{
+					"id": "ah1-21-4-rgb-led",
+					"title": "RGB-LED",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/21-4_rgb-led",
+					"imageUrl": "https://cdn.makecode.com/blob/043d7e37435e2009e8a3bcd754d11a52b2f4cfb3/static/calliope/arbeitsheft/DE/21-4_rgb-led.png",
+					"label": "S. 21 Aufg. 4"
+				},
+				{
+					"id": "ah1-23-4-fitness",
+					"title": "Fitness",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/23-4_fitness",
+					"imageUrl": "https://cdn.makecode.com/blob/59e700ccb5f9897412d676b3d40f0232e195653f/static/calliope/arbeitsheft/DE/23-4_fitness.png",
+					"label": "S. 23 Aufg. 4"
+				},
+				{
+					"id": "ah1-24-3-knoepfe",
+					"title": "Knöpfe",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/24-3_knoepfe",
+					"imageUrl": "https://cdn.makecode.com/blob/f984b498cb8b266d016e449aca030a348d1cb773/static/calliope/arbeitsheft/DE/24-3_knoepfe.png",
+					"label": "S. 24 Aufg. 3"
+				},
+				{
+					"id": "ah1-27-1-klavier",
+					"title": "Klavier",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/27-1_klavier",
+					"imageUrl": "https://cdn.makecode.com/blob/15122ef765649db7fc4488c9b8d03b707b2ce8e4/static/calliope/arbeitsheft/DE/27-1_klavier.png",
+					"label": "S. 27 Aufg. 1"
+				},
+				{
+					"id": "ah1-33-4-licht",
+					"title": "Licht",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/33-4_licht",
+					"imageUrl": "https://cdn.makecode.com/blob/5c35ea3a9d5197aea889b421df4310bdf53757f2/static/calliope/arbeitsheft/DE/33-4_licht.png",
+					"label": "S. 33 Aufg. 4"
+				},
+				{
+					"id": "ah1-35-1-smart-licht",
+					"title": "Smart-Licht",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/35-1_smart-licht",
+					"imageUrl": "https://cdn.makecode.com/blob/b4140f7a7a5c65c1d104b1e610d6e6ef66cf2c96/static/calliope/arbeitsheft/DE/35-1_smart-licht.png",
+					"label": "S. 35 Aufg. 1"
+				},
+				{
+					"id": "ah1-38-1b-thermometer",
+					"title": "Thermometer",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/38-1b_thermometer",
+					"imageUrl": "https://cdn.makecode.com/blob/8f347a43a2d74be5e202f149a317606ed4ad76af/static/calliope/arbeitsheft/DE/38-1b_thermometer.png",
+					"label": "S. 38 Aufg. 1"
+				},
+				{
+					"id": "ah1-41-3-wuerfel",
+					"title": "Würfel",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/41-3_wuerfel",
+					"imageUrl": "https://cdn.makecode.com/blob/87c41f76da6171a147d086345e7655d115759789/static/calliope/arbeitsheft/DE/41-3_wuerfel.png",
+					"label": "S. 41 Aufg. 3"
+				},
+				{
+					"id": "ah1-42-2-orakel",
+					"title": "Orakel",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/42-2_orakel",
+					"imageUrl": "https://cdn.makecode.com/blob/dddf3369467ea76adc00c9884f02399005cbd9ac/static/calliope/arbeitsheft/DE/42-2_orakel.png",
+					"label": "S. 42 Aufg. 2"
+				},
+				{
+					"id": "ah1-45-1-pflanzenstation",
+					"title": "Pflanzenstation",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/45-1_pflanzenstation",
+					"imageUrl": "https://cdn.makecode.com/blob/ffef3ce1a881b511a3e6d8e592efa7fca30f1ff0/static/calliope/arbeitsheft/DE/45-1_pflanzenstation.png",
+					"label": "S. 45 Aufg. 1"
+				},
+				{
+					"id": "ah1-49-1-schaetzspiel",
+					"title": "Schätzspiel",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/49-1_schaetzspiel",
+					"imageUrl": "https://cdn.makecode.com/blob/867202da7b45a346df1f7c47e67077a0266e97fe/static/calliope/arbeitsheft/DE/49-1_schaetzspiel.png",
+					"label": "S. 49 Aufg. 1"
+				},
+				{
+					"id": "ah1-50-2-personenzaehler",
+					"title": "Personenzähler",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/50-2_personenzaehler",
+					"imageUrl": "https://cdn.makecode.com/blob/06bd876664a44e3576dd2ceba6f1dd881235be2a/static/calliope/arbeitsheft/DE/50-2_personenzaehler.png",
+					"label": "S. 50 Aufg. 2"
+				},
+				{
+					"id": "ah1-54-1-luftqualitaet",
+					"title": "Luftqualität",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/calliope/arbeitsheft/54-1_luftqualitaet",
+					"imageUrl": "https://cdn.makecode.com/blob/23f231853ebcbb1d09fde9433339e49a8d4c40c4/static/calliope/arbeitsheft/DE/54-1_luftqualitaet.png",
+					"label": "S. 54 Aufg. 1"
+				}
+			]
+		},
+		{
+			"id": "arbeitsheft-2",
+			"title": "Arbeitsheft 2",
+			"order": 20,
+			"entries": [
+				{
+					"id": "ah2-4-1-schere-stein-papier",
+					"title": "Schere, Stein, Papier",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.1_schere-stein-papier",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/4.1_schere-stein-papier",
+					"label": "4.1"
+				},
+				{
+					"id": "ah2-4-2-reaktionsspiel",
+					"title": "Reaktionsspiel",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.2_reaktionsspiel",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/4.2_reaktionsspiel",
+					"label": "4.2"
+				},
+				{
+					"id": "ah2-4-3-regentropfen-fangen",
+					"title": "Regentropfen fangen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.3_regentropfen-fangen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/4.3_regentropfen-fangen",
+					"label": "4.3"
+				},
+				{
+					"id": "ah2-5-1-1-digitales-haustier-temperatur",
+					"title": "Digitales Haustier: Temperatur",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.1_digitales-haustier-temperatur",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.1_digitales-haustier-temperatur",
+					"label": "5.1.1"
+				},
+				{
+					"id": "ah2-5-1-2-digitales-haustier-streicheln",
+					"title": "Digitales Haustier: Streicheln",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.2_digitales-haustier-streicheln",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.2_digitales-haustier-streicheln",
+					"label": "5.1.2"
+				},
+				{
+					"id": "ah2-5-1-3-digitales-haustier-bewegung",
+					"title": "Digitales Haustier: Bewegung",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.3_digitales-haustier-bewegung",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.3_digitales-haustier-bewegung",
+					"label": "5.1.3"
+				},
+				{
+					"id": "ah2-5-1-4-digitales-haustier-spielen",
+					"title": "Digitales Haustier: Spielen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.4_digitales-haustier-spielen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.4_digitales-haustier-spielen",
+					"label": "5.1.4"
+				},
+				{
+					"id": "ah2-5-1-5-digitales-haustier-schlafen",
+					"title": "Digitales Haustier: Schlafen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.5_digitales_haustier-schlafen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.5_digitales_haustier-schlafen",
+					"label": "5.1.5"
+				},
+				{
+					"id": "ah2-5-1-6-digitales-haustier-hunger",
+					"title": "Digitales Haustier: Hunger",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.6_digitales-haustier-hunger",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.6_digitales-haustier-hunger",
+					"label": "5.1.6"
+				},
+				{
+					"id": "ah2-5-1-6-digitales-haustier-hunger-boolean",
+					"title": "Digitales Haustier: Hunger (mit Wahrheitswert)",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.6_digitales-haustier-hunger_boolean",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.6_digitales-haustier-hunger_boolean",
+					"label": "5.1.6"
+				},
+				{
+					"id": "ah2-5-1-7-digitales-haustier-soziale-kontakte",
+					"title": "Digitales Haustier: Soziale Kontakte",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.7_digitales-haustier-soziale-kontakte",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.7_digitales-haustier-soziale-kontakte",
+					"label": "5.1.7"
+				},
+				{
+					"id": "ah2-5-1-8-digitales-haustier-stimmung",
+					"title": "Digitales Haustier: Stimmung",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/5.1.8_digitales-haustier-stimmung",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/5.1.8_digitales-haustier-stimmung",
+					"label": "5.1.8"
+				},
+				{
+					"id": "ah2-6-1-1-escape-room-entfernung-messen",
+					"title": "Escape-Room: Entfernung messen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.1_escape-room-entfernung-messen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.1_escape-room-entfernung-messen",
+					"label": "6.1.1"
+				},
+				{
+					"id": "ah2-6-1-2-escape-room-licht-messen",
+					"title": "Escape-Room: Licht messen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.2_escape-room-licht-messen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.2_escape-room-licht-messen",
+					"label": "6.1.2"
+				},
+				{
+					"id": "ah2-6-1-3-escape-room-lautstaerke-messen",
+					"title": "Escape-Room: Lautstärke messen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.3_escape-room-lautstaerke-messen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.3_escape-room-lautstaerke-messen",
+					"label": "6.1.3"
+				},
+				{
+					"id": "ah2-6-1-4-escape-room-feuchtigkeit-messen",
+					"title": "Escape-Room: Feuchtigkeit messen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.4_escape-room-feuchtigkeit-messen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.4_escape-room-feuchtigkeit-messen",
+					"label": "6.1.4"
+				},
+				{
+					"id": "ah2-6-1-5-escape-room-lichtschalter",
+					"title": "Escape-Room: Lichtschalter",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.5_escape-room-lichtschalter",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.5_escape-room-lichtschalter",
+					"label": "6.1.5"
+				},
+				{
+					"id": "ah2-6-1-6-escape-room-binaercode",
+					"title": "Escape-Room: Binärcode",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.6_escape-room-binaercode",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.6_escape-room-binaercode",
+					"label": "6.1.6"
+				},
+				{
+					"id": "ah2-6-1-7-escape-room-kompass",
+					"title": "Escape-Room: Kompass",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/6.1.7_escape-room-kompass",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/6.1.7_escape-room-kompass",
+					"label": "6.1.7"
+				},
+				{
+					"id": "ah2-7-1-1-180-grad-servomotoren",
+					"title": "180°-Servomotoren",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.1.1_180-grad-servomotoren",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/7.1.1_180-grad-servomotoren",
+					"label": "7.1.1"
+				},
+				{
+					"id": "ah2-7-1-2-360-grad-servomotoren",
+					"title": "360°-Servomotoren",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.1.2_360-grad-servomotoren",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/7.1.2_360-grad-servomotoren",
+					"label": "7.1.2"
+				},
+				{
+					"id": "ah2-7-2-servoboard-seifenblasenmaschine",
+					"title": "Servoboard: Seifenblasenmaschine",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.2_servoboard-seifenblasenmaschine",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/7.2_servoboard-seifenblasenmaschine",
+					"label": "7.2"
+				},
+				{
+					"id": "ah2-7-3-1-motionkit-fahrbewegungen",
+					"title": "MotionKit: Fahrbewegungen",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.3.1_motionkit-fahrbewegungen",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/7.3.1_motionkit-fahrbewegungen",
+					"label": "7.3.1"
+				},
+				{
+					"id": "ah2-7-3-2-motionkit-selbstfahrende-roboter",
+					"title": "MotionKit: Selbstfahrende Roboter",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.3.2_motionkit-selbstfahrende-roboter",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/7.3.2_motionkit-selbstfahrende-roboter",
+					"label": "7.3.2"
+				},
+				{
+					"id": "ah2-7-3-3-motionkit-ferngesteuerte-roboter",
+					"title": "MotionKit: Ferngesteuerter Roboter",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/7.3.3_motionkit-ferngesteuerte-roboter",
+					"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/7.3.3_motionkit-ferngesteuerte-roboter",
+					"label": "7.3.3"
+				}
+			]
+		},
+		{
+			"id": "tutorials",
+			"title": "Tutorials",
+			"order": 30,
+			"entries": [
+				{
+					"id": "tutorial-flashing-heart",
+					"title": "Blinkendes Herz",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/flashing-heart",
+					"imageUrl": "https://cdn.makecode.com/blob/b69cfb81a3d2ea7b34f752fd39daab0631d352f9/static/calliope/tutorials/01_flashing_heart.gif"
+				},
+				{
+					"id": "tutorial-name-tag",
+					"title": "Namensschild",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/name-tag",
+					"imageUrl": "https://cdn.makecode.com/blob/76777393a8ad0de6fa6a936e908cce4c6b7c2b0b/static/calliope/tutorials/02_nametag.gif"
+				},
+				{
+					"id": "tutorial-smiley-buttons",
+					"title": "Smiley Knöpfe",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/smiley-buttons",
+					"imageUrl": "https://cdn.makecode.com/blob/c5e7c9553162accaa119d203fc918bd8b52a2ba5/static/calliope/tutorials/03_smiley_button.gif"
+				},
+				{
+					"id": "tutorial-dice",
+					"title": "Würfel",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/dice",
+					"imageUrl": "https://cdn.makecode.com/blob/2a4b268f91b7d86f6b00d76de6c64ccec9088d58/static/calliope/tutorials/04_dice.gif"
+				},
+				{
+					"id": "tutorial-love-meter",
+					"title": "Liebesmesser",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/love-meter",
+					"imageUrl": "https://cdn.makecode.com/blob/c2c978bc157751406f0de4801ca64798aff62c68/static/calliope/tutorials/05_love_meter.gif"
+				},
+				{
+					"id": "tutorial-rock-paper-scissors",
+					"title": "Schere, Stein, Papier",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/rock-paper-scissors",
+					"imageUrl": "https://cdn.makecode.com/blob/05ba93116bebbc95b031189f584f97a6c744a099/static/calliope/tutorials/07_stone_paper_scissors.gif"
+				},
+				{
+					"id": "tutorial-coin-flipper",
+					"title": "Münzwurf",
+					"editor": "makecode",
+					"kind": "tutorial",
+					"url": "https://makecode.calliope.cc/#tutorial:/projects/coin-flipper",
+					"imageUrl": "https://cdn.makecode.com/blob/863ad2485520e02adae1ea251bf6b7c7f9f3af5e/static/calliope/tutorials/08_coin_flipper.gif"
+				}
+			]
+		},
+		{
+			"id": "jacdac",
+			"title": "Jacdac",
+			"order": 40,
+			"entries": [
+				{
+					"id": "jacdac-schieberegler",
+					"title": "Schieberegler",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_WLyEu7eDk0W3",
+					"imageUrl": "https://cdn.makecode.com/blob/7319f495176d9ce76338bd575a68021e019ab60f/static/calliope/jacdac/jacdac-slider.png",
+					"label": "StartBox I"
+				},
+				{
+					"id": "jacdac-drehregler",
+					"title": "Drehregler",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_PzEhKRJoaaLV",
+					"imageUrl": "https://cdn.makecode.com/blob/3920ea91a9777026a33724417e28429fb991d3df/static/calliope/jacdac/jacdac_rotary.png",
+					"label": "StartBox I"
+				},
+				{
+					"id": "jacdac-rgbring",
+					"title": "RGB-Ring",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_4o6C2eDLzLWf",
+					"imageUrl": "https://cdn.makecode.com/blob/67a6d6951b0ae12b51796470877e7fd04184e4e8/static/calliope/jacdac/jacdac_rgb-ring.png",
+					"label": "StartBox I"
+				},
+				{
+					"id": "jacdac-taster",
+					"title": "Taster",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_FD1PM49sF8Cb",
+					"imageUrl": "https://cdn.makecode.com/blob/01f291a02625b7a424f7b30c20f87183262a6bae/static/calliope/jacdac/jacdac_button.png",
+					"label": "StartBox I"
+				},
+				{
+					"id": "jacdac-magnet",
+					"title": "Magnetsensor",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_F5rfAFfXtCkt",
+					"imageUrl": "https://cdn.makecode.com/blob/28cb30b2cf72d6ded0ef399c3793694789406bb0/static/calliope/jacdac/jacdac_magnetic.png",
+					"label": "StartBox I"
+				},
+				{
+					"id": "jacdac-licht",
+					"title": "Lichtsensor",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_EtpfADbTKf8x",
+					"imageUrl": "https://cdn.makecode.com/blob/28ff159dd04f445b01ee7eafb339d0d04d419368/static/calliope/jacdac/jacdac_light.png",
+					"label": "StartBox I"
+				},
+				{
+					"id": "jacdac-ultraschall",
+					"title": "Ultraschallsensor",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_7x6YHRPr8V0o",
+					"imageUrl": "https://cdn.makecode.com/blob/5ed9b25ab0f2c4e62e660bd54337837700ba1af8/static/calliope/jacdac/jacdac_ultrasonic.png",
+					"label": "StartBox II"
+				},
+				{
+					"id": "jacdac-beschleunigung",
+					"title": "Beschleunigungssensor",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_EAJhPKeTg2V2",
+					"imageUrl": "https://cdn.makecode.com/blob/5e64d5eb7c1e4e736703f82e9db4924adb15eb2d/static/calliope/jacdac/jacdac_accelerator.png",
+					"label": "StartBox II"
+				},
+				{
+					"id": "jacdac-relais",
+					"title": "Relais",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_cfWhwDVvAKe2",
+					"imageUrl": "https://cdn.makecode.com/blob/c7a9780faff518fc2c61a4f757d2c5516a54eb67/static/calliope/jacdac/jacdac_relais.png",
+					"label": "StartBox II"
+				},
+				{
+					"id": "jacdac-umwelt",
+					"title": "Umweltsensor",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_b6M9oUK0eFKL",
+					"imageUrl": "https://cdn.makecode.com/blob/035d5bca610607e1df81d9c5583c26e3cc52c96d/static/calliope/jacdac/jacdac_nature.png",
+					"label": "StartBox II"
+				},
+				{
+					"id": "jacdac-vibration",
+					"title": "Vibrationsmotor",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_TRcMxU8mjdYU",
+					"imageUrl": "https://cdn.makecode.com/blob/2f70ec7e120ff50d5b881794457df08f7008dd66/static/calliope/jacdac/jacdac-vibration.png",
+					"label": "StartBox II"
+				},
+				{
+					"id": "jacdac-servo",
+					"title": "Servo",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_X61Fy961jMgr",
+					"imageUrl": "https://cdn.makecode.com/blob/cd7d13bd268c47fc08407a05d663756cc2df8ed5/static/calliope/jacdac/jacdac-servo.png",
+					"label": "StartBox II"
+				},
+				{
+					"id": "jacdac-rgbstrip",
+					"title": "RGB-Strip",
+					"editor": "makecode",
+					"kind": "program",
+					"url": "https://makecode.calliope.cc/_LjJThTMyp4o4",
+					"imageUrl": "https://cdn.makecode.com/blob/17ca16db815661c5b7c185f2892a2dbd9f9d5dff/static/calliope/jacdac/jacdac-rgb-strip.png",
+					"label": "StartBox II"
+				}
+			]
+		},
+		{
+			"id": "appcamps",
+			"title": "Appcamps",
+			"order": 50,
+			"external": true,
+			"entries": [
+				{
+					"id": "appcamps-basiskurs-makecode-01-grundlagen",
+					"title": "Calliope mini – Basiskurs MakeCode – 01 Grundlagen",
+					"editor": null,
+					"kind": "embed",
+					"url": "https://app.fobizz.com/teaching_board/public_screens/7ecb80f4-7617-4d1f-aaae-c72f5aa0e164/pages/6f2b0d93-36ea-43b8-a769-24a4ce614ec0?token=da12166ae8290af0148c5d394e769931",
+					"label": "Basiskurs 01"
+				}
+			]
+		}
+	]
+}

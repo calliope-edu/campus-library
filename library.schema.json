@@ -1,0 +1,96 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://raw.githubusercontent.com/calliope-edu/campus-library/main/library.schema.json",
+	"title": "Calliope Campus library",
+	"description": "The curated library Calliope Campus shows in its import dialog: sections of tutorials, programs and materials.",
+	"type": "object",
+	"required": ["version", "sections"],
+	"additionalProperties": false,
+	"properties": {
+		"$schema": { "type": "string" },
+		"version": {
+			"description": "Format version. Campus ignores a file whose version it does not know.",
+			"const": 1
+		},
+		"sections": {
+			"type": "array",
+			"items": { "$ref": "#/$defs/section" }
+		}
+	},
+	"$defs": {
+		"id": {
+			"description": "Stable id. Never reuse or rename one: Campus rooms will refer to sections and entries by id.",
+			"type": "string",
+			"pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+			"maxLength": 80
+		},
+		"httpsUrl": {
+			"type": "string",
+			"format": "uri",
+			"pattern": "^https://",
+			"maxLength": 2048
+		},
+		"section": {
+			"type": "object",
+			"required": ["id", "title", "order", "entries"],
+			"additionalProperties": false,
+			"properties": {
+				"id": { "$ref": "#/$defs/id" },
+				"title": { "type": "string", "minLength": 1, "maxLength": 80 },
+				"order": {
+					"description": "Sections are shown by ascending order. Leave gaps (10, 20, …) so later sections, also a room's own, fit in between.",
+					"type": "integer"
+				},
+				"external": {
+					"description": "Material by a third party, outside Calliope. Campus marks the section as external.",
+					"type": "boolean"
+				},
+				"entries": {
+					"type": "array",
+					"items": { "$ref": "#/$defs/entry" }
+				}
+			}
+		},
+		"entry": {
+			"type": "object",
+			"required": ["id", "title", "kind", "url"],
+			"additionalProperties": false,
+			"properties": {
+				"id": { "$ref": "#/$defs/id" },
+				"title": { "type": "string", "minLength": 1, "maxLength": 120 },
+				"editor": {
+					"description": "The Campus editor the entry opens in. null (or missing) for material that needs no editor: videos, PDFs, boards.",
+					"enum": ["makecode", "python", "blocks", "umo", "iot", "arcade", null]
+				},
+				"kind": {
+					"enum": ["tutorial", "program", "video", "pdf", "embed"]
+				},
+				"url": { "$ref": "#/$defs/httpsUrl" },
+				"urlNoHints": {
+					"description": "The same tutorial without hints. Campus offers a \"with hints\" switch for sections that have such entries.",
+					"$ref": "#/$defs/httpsUrl"
+				},
+				"imageUrl": {
+					"description": "Square-ish cover image. Without one Campus shows the label as the cover.",
+					"$ref": "#/$defs/httpsUrl"
+				},
+				"label": {
+					"description": "Short reference shown above the title, e.g. \"S. 18 Aufg. 4\" or \"4.2\".",
+					"type": "string",
+					"minLength": 1,
+					"maxLength": 40
+				},
+				"grade": {
+					"description": "School years the entry is meant for.",
+					"type": "object",
+					"required": ["from"],
+					"additionalProperties": false,
+					"properties": {
+						"from": { "type": "integer", "minimum": 1, "maximum": 13 },
+						"to": { "type": "integer", "minimum": 1, "maximum": 13 }
+					}
+				}
+			}
+		}
+	}
+}
