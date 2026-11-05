@@ -41,9 +41,13 @@
 					"description": "Sections are shown by ascending order. Leave gaps (10, 20, …) so later sections, also a room's own, fit in between.",
 					"type": "integer"
 				},
-				"external": {
-					"description": "Material by a third party, outside Calliope. Campus marks the section as external.",
-					"type": "boolean"
+				"logoUrl": {
+					"description": "The provider's logo, shown beside the section title. Keep it in this repository (images/) so its host is on Campus's allow-list.",
+					"$ref": "#/$defs/httpsUrl"
+				},
+				"link": {
+					"description": "The provider's own page. Campus links the logo (or, without one, a link icon) to it, opening in a new tab.",
+					"$ref": "#/$defs/httpsUrl"
 				},
 				"entries": {
 					"type": "array",
@@ -58,16 +62,19 @@
 			"properties": {
 				"id": { "$ref": "#/$defs/id" },
 				"title": { "type": "string", "minLength": 1, "maxLength": 120 },
-				"editor": {
-					"description": "The Campus editor the entry opens in. null (or missing) for material that needs no editor: videos, PDFs, boards.",
-					"enum": ["makecode", "python", "blocks", "umo", "iot", "arcade", null]
+				"editors": {
+					"description": "The Campus editors the entry is made for. A room shows it when at least one of them is switched on. Empty (or missing) for material that needs no editor: videos, PDFs, boards; those show in every room.",
+					"type": "array",
+					"uniqueItems": true,
+					"items": {
+						"enum": ["makecode", "python", "blocks", "umo", "iot", "arcade"]
+					}
 				},
 				"kind": {
 					"enum": ["tutorial", "program", "video", "pdf", "embed"]
 				},
-				"url": { "$ref": "#/$defs/httpsUrl" },
-				"urlNoHints": {
-					"description": "The same tutorial without hints. Campus offers a \"with hints\" switch for sections that have such entries.",
+				"url": {
+					"description": "The one version of the entry Campus starts. A tutorial that comes with and without hints is listed in one version only.",
 					"$ref": "#/$defs/httpsUrl"
 				},
 				"imageUrl": {

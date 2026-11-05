@@ -7,7 +7,7 @@
  *   node scripts/sync-makecode.mjs --write  also write them into library.json
  *
  * Only the sections listed in SOURCES are touched. In them, what the source
- * owns (url, urlNoHints, imageUrl) is updated, while what we curate by hand
+ * owns (url, imageUrl) is updated, while what we curate by hand
  * (title, label, grade, the order of entries) is kept. New entries get a
  * proposed title: check it before committing. Entries gone from the source
  * are removed. Every other section (Appcamps, …) is left alone.
@@ -42,7 +42,7 @@ const SOURCES = [
 ];
 
 /** Fields the source owns; everything else in an entry is curated. */
-const SOURCE_FIELDS = ['url', 'urlNoHints', 'imageUrl'];
+const SOURCE_FIELDS = ['url', 'imageUrl'];
 
 async function fetchText(url) {
 	const response = await fetch(url, { headers: { 'user-agent': 'campus-library-sync' } });
@@ -101,7 +101,7 @@ async function readTutorialGallery(path, idPrefix, { nameIsLabel = false } = {})
 			return {
 				id: `${idPrefix}-${slugToId(slug)}`,
 				title: nameIsLabel ? slugToTitle(slugToId(name)) : card.name,
-				editor: 'makecode',
+				editors: ['makecode'],
 				kind: 'tutorial',
 				url: `${MAKECODE}/#tutorial:${card.url}`,
 				imageUrl: httpsOrUndefined(card.imageUrl),
@@ -117,8 +117,10 @@ async function listGithubDir(repo, dir) {
 
 /**
  * Arbeitsheft 2: one tutorial per file in `tutorials/`, the variant without
- * hints under the same name in `tutorials_nohints/`. The first heading reads
- * `# 4.2 Reaktionsspiel`: chapter number, then the title.
+ * hints under the same name in `tutorials_nohints/`. The library holds one
+ * version of each, the one without hints; a tutorial that has none keeps
+ * the one with hints. The first heading reads `# 4.2 Reaktionsspiel`:
+ * chapter number, then the title.
  */
 async function readArbeitsheft2() {
 	const [withHints, noHints] = await Promise.all([
@@ -137,10 +139,11 @@ async function readArbeitsheft2() {
 		entries.push({
 			id: `ah2-${slugToId(name)}`,
 			title: title.trim(),
-			editor: 'makecode',
+			editors: ['makecode'],
 			kind: 'tutorial',
-			url: `${base}/tutorials/${name}`,
-			urlNoHints: noHintNames.has(file.name) ? `${base}/tutorials_nohints/${name}` : undefined,
+			url: noHintNames.has(file.name)
+				? `${base}/tutorials_nohints/${name}`
+				: `${base}/tutorials/${name}`,
 			label: chapter.replace(/\.$/, '') || undefined
 		});
 	}
@@ -178,7 +181,7 @@ async function readJacdac() {
 		entries.push({
 			id: `jacdac-${slugToId(anchor)}`,
 			title: card.name,
-			editor: 'makecode',
+			editors: ['makecode'],
 			kind: 'program',
 			url: program,
 			imageUrl: httpsOrUndefined(card.imageUrl),
