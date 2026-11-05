@@ -17,29 +17,27 @@ An entry:
 {
 	"id": "ah2-4-2-reaktionsspiel",
 	"title": "Reaktionsspiel",
-	"editor": "makecode",
+	"editors": ["makecode"],
 	"kind": "tutorial",
-	"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials/4.2_reaktionsspiel",
-	"urlNoHints": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/4.2_reaktionsspiel",
+	"url": "https://makecode.calliope.cc/#tutorial:https://github.com/calliope-edu/arbeitsheft2tutorials/tutorials_nohints/4.2_reaktionsspiel",
 	"imageUrl": "https://…/cover.png",
 	"label": "4.2",
 	"grade": { "from": 5, "to": 7 }
 }
 ```
 
-| Field        | Required | Meaning                                                                                                                                                                                                       |
-| ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `id`         | yes      | Lowercase words joined by `-`, unique in the whole file. Never rename or reuse one: rooms will refer to entries by id.                                                                                         |
-| `title`      | yes      | Shown on the tile. Short; the label carries the chapter or page.                                                                                                                                              |
-| `editor`     | no       | The Campus editor it opens in: `makecode`, `python`, `blocks`, `umo`, `iot` or `arcade`. `null` or missing for material that needs no editor (videos, PDFs, boards). A room only shows entries whose editor it has switched on, plus all entries without an editor. |
-| `kind`       | yes      | `tutorial`, `program`, `video`, `pdf` or `embed`.                                                                                                                                                             |
-| `url`        | yes      | `https://` only. MakeCode tutorials as `https://makecode.calliope.cc/#tutorial:…`, programs as share links (`https://makecode.calliope.cc/_…`). Videos, PDFs and boards must come from a host Campus embeds. |
-| `urlNoHints` | no       | The same tutorial without hints. Sections with such entries get a "mit Tipps" switch.                                                                                                                         |
-| `imageUrl`   | no       | Cover image, shown square. Without one the tile shows the label.                                                                                                                                              |
-| `label`      | no       | Short reference such as `S. 18 Aufg. 4` or `4.2`.                                                                                                                                                             |
-| `grade`      | no       | School years, `{ "from": 5, "to": 7 }`.                                                                                                                                                                       |
+| Field      | Required | Meaning                                                                                                                                                                                                                                                                                        |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `id`       | yes      | Lowercase words joined by `-`, unique in the whole file. Never rename or reuse one: rooms will refer to entries by id.                                                                                                                                                                         |
+| `title`    | yes      | Shown on the tile. Short; the label carries the chapter or page.                                                                                                                                                                                                                               |
+| `editors`  | no       | The Campus editors the entry is made for, a list: `makecode`, `python`, `blocks`, `umo`, `iot`, `arcade`. A room shows the entry when at least one of them is switched on. `[]` or missing for material that needs no editor (videos, PDFs, boards); that shows in every room.                 |
+| `kind`     | yes      | `tutorial`, `program`, `video`, `pdf` or `embed`.                                                                                                                                                                                                                                              |
+| `url`      | yes      | `https://` only. MakeCode tutorials as `https://makecode.calliope.cc/#tutorial:…`, programs as share links (`https://makecode.calliope.cc/_…`). Videos, PDFs and boards must come from a host Campus embeds. One version per entry: a tutorial with and without hints is listed without hints. |
+| `imageUrl` | no       | Cover image, shown square. Without one the tile shows the label.                                                                                                                                                                                                                               |
+| `label`    | no       | Short reference such as `S. 18 Aufg. 4` or `4.2`.                                                                                                                                                                                                                                              |
+| `grade`    | no       | School years, `{ "from": 5, "to": 7 }`.                                                                                                                                                                                                                                                        |
 
-A section has an `id`, a `title`, an `order` (ascending; leave gaps of 10 so new sections fit in between), its `entries`, and `"external": true` when the material comes from outside Calliope. [`library.schema.json`](library.schema.json) is the full format.
+A section has an `id`, a `title`, an `order` (ascending; leave gaps of 10 so new sections fit in between) and its `entries`. Material from a provider outside Calliope gets the provider's `logoUrl`, shown beside the title, and `link`, the provider's page the logo opens; keep the logo in [`images/`](images). [`library.schema.json`](library.schema.json) is the full format.
 
 Images and embedded material are loaded by pupils' browsers from a Campus page, so Campus only accepts hosts on its allow-list. A new host needs a change in Campus too (`src/lib/services/embeds/allowlist.ts`).
 
