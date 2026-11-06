@@ -554,6 +554,47 @@
 					"label": "01"
 				}
 			]
+		},
+		{
+			"id": "appcamps-blocks",
+			"title": "AppCamps Blocks editor",
+			"order": 60,
+			"logoUrl": "https://raw.githubusercontent.com/calliope-edu/campus-library/main/images/appcamps.png",
+			"link": "https://appcamps.de/",
+			"entries": [
+				{
+					"id": "appcamps-blocks-01-kleine-unterhaltung",
+					"title": "Kleine Unterhaltung",
+					"editors": ["blocks"],
+					"kind": "embed",
+					"url": "https://app.fobizz.com/teaching_board/public_screens/f573b87b-2da9-4c43-a3b0-ef547eac4f37/pages/ac884902-350d-4845-8140-b43891556b56?token=f9630ffc205101d53a49866843abba32",
+					"label": "01"
+				},
+				{
+					"id": "appcamps-blocks-02-meine-musicbox",
+					"title": "Meine MusicBox",
+					"editors": ["blocks"],
+					"kind": "embed",
+					"url": "https://app.fobizz.com/teaching_board/public_screens/03443104-741c-4be1-96fd-b5d18d413f47/pages/5561b458-2434-4a98-aa45-4e5fc6b8483f?token=af266b4065fae5b08bb15457256c841c",
+					"label": "02"
+				},
+				{
+					"id": "appcamps-blocks-03-geschicklichkeits-spiel",
+					"title": "Geschicklichkeits-Spiel",
+					"editors": ["blocks"],
+					"kind": "embed",
+					"url": "https://app.fobizz.com/teaching_board/public_screens/390dc28e-ad22-4466-b001-615c0352e8d9/pages/42dd0e1a-b7b3-4605-ac45-d029ca790a7a?token=a7ee67fde58d456c560aa1992899d6fc",
+					"label": "03"
+				},
+				{
+					"id": "appcamps-blocks-04-fangspiel",
+					"title": "Fangspiel",
+					"editors": ["blocks"],
+					"kind": "embed",
+					"url": "https://app.fobizz.com/teaching_board/public_screens/c05da8f4-6acd-4176-9eaa-42585b76d269/pages/a0128f34-af70-4130-9ad7-215d35b0363a?token=9e827cf1e95ff32a9fc16970b0a98e5e",
+					"label": "04"
+				}
+			]
 		}
 	]
 }
